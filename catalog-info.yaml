@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: order
+  description: testing create app from templates
+  annotations:
+    github.com/project-slug: duy275/lab-app-order
+  links:
+    - url: https://order.hoanqdy.cloud
+      title: App
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/guests
